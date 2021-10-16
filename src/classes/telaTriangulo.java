@@ -4,9 +4,6 @@
  */
 package classes;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
 /**
  *
  * @author Cliente
@@ -16,11 +13,9 @@ public class telaTriangulo extends javax.swing.JFrame {
     /**
      * Creates new form telaTriangulo
      */
-    Graphics g;
     public telaTriangulo() {
         initComponents();
         panResposta.setVisible(false);
-        g = panResposta.getGraphics();
     }
 
     /**
@@ -222,8 +217,6 @@ public class telaTriangulo extends javax.swing.JFrame {
         }
         
         panResposta.setVisible(true);
-        g.setColor(Color.red);
-        g.drawRect(10, 10, 200, 200);
     }//GEN-LAST:event_btnVerificarActionPerformed
 
     private void sliAStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliAStateChanged
