@@ -1,6 +1,6 @@
 <h1 align="center">Projeto Triângulo</h1>
 
-<h2>Aplicação feita durante aula de curso de Java.</h2>
+<h2>Aplicação feita durante aula do curso de Java.</h2>
 
 <h3>Triângulo escaleno</h3>
 <img src="example1.png" alt="Exemplo com triângulo escaleno" />
